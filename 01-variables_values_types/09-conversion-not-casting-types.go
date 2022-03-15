@@ -21,3 +21,8 @@ func main() {
 	fmt.Println(a)
 	fmt.Printf("%T\n", a)
 }
+
+// NOTE
+// In Go we refer to this as "converting" and not "casting"
+// Similar to "casting" in other language we can only "convert" variables that CAN be converted
+// Ex: we can't convert a variable valued as "hello" to an int or boolean
