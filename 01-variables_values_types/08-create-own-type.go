@@ -16,4 +16,7 @@ func main() {
 	fmt.Printf("%T\n", a)
 	fmt.Println(b)
 	fmt.Printf("%T\n", b) // returns "main.hotdog" - type hotdog from package main
+
+	// a = b -- we CANNOT do this because a and b are assigned two different types
+	// even though b has the same underlying type as a
 }
