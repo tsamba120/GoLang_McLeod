@@ -10,9 +10,9 @@ import (
 // alternatively
 
 const (
-	a = 42
-	b = 42.78
-	c = "James Bond"
+	a        = 42           // untyped constant
+	b        = 42.78        // untyped constant
+	c string = "James Bond" // typed
 )
 
 func main() {
