@@ -33,9 +33,11 @@ func main() {
 		fmt.Printf("value was not 40 or 41. actual value was %d\n", y)
 	}
 
+	fmt.Println()
 	// CONDITIONAL LOGIC OPERATORS
 	fmt.Println(true && true)
 	fmt.Println(true && false)
 	fmt.Println(true || true)
 	fmt.Println(true || false)
+	fmt.Println(!true)
 }
